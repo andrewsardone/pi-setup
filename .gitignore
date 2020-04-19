@@ -1,2 +1,25 @@
 # environment specific files
 .env
+
+# vim-specific
+# via https://github.com/github/gitignore/blob/80587386dd48334c304819abcc4a09877cf99e21/Global/Vim.gitignore
+
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
