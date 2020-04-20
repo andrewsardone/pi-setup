@@ -8,7 +8,7 @@ services like [Pi-hole] and network-attached storage.
 ## Architecture
 
 Keeping things simple by managing most services via Docker containers that are
-spun up and down by `systemd`. For a given service, the basic director
+spun up and down by `systemd`. For a given service, the basic directory
 structure is as such:
 
 ### Service Directory Structure
